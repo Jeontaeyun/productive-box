@@ -14,5 +14,6 @@ jobs:
         uses: Jeontaeyun/productive-box@master
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-          GIST_ID: 71648579fe6c38745d2cbffa826c9d58
+          GIST_ID: ${{ secrets.GIST_ID }}
           TIMEZONE: Asia/Seoul
+          LOCALE: ko-KR
